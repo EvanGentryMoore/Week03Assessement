@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 <head>
 	<title>Homepage</title>
@@ -18,30 +18,41 @@
 		<h1>Hello World</h1>
 		<!-- insert hello world here -->
 
-		<img src="https://c-cl.cdn.smule.com/rs-z-sf-1/account/picture/95/57/46f612ee-a281-491c-93bb-379d476e38a7.jpg" />
-		<p>Welcome to our website. Please enjoy your visit!</p>
+		<img src="https://c-cl.cdn.smule.com/rs-z-sf-1/account/picture/95/57/46f612ee-a281-491c-93bb-379d476e38a7.jpg" alt="cat looking at a rubber duck" />
+		<h2>
+			<p>
+			Welcome to our website. Please enjoy your visit!
+			</p>
+		</h2>
 		<ul>
 			<li>You're looking fan-freakin'-tastic.</li>
 			<li>You're obviously smart for navigating here.</li>
-			<li>How you have time to be here when all your many friends want to be with you?</li>
+			<li>How do you have time to be here when all your many friends want to be with you?</li>
 			<li>I know this sounds weird, but you look like you smell good.</li>
 		</ul>
 
 		<h2>Contact Us</h2>
 		<form id="contact">
-			Your name:
-			<input type="text"><br>
-
-			Message:
-			<input type="textarea"><br>
-
-		<div>
-			How did you learn about us?:<br>
-			<label><input type="checkbox" id="Google" />Google</label>
-			<label><input type="checkbox"/>A Friend</label>
-			<label><input type="checkbox"/>Other</label>
-		</div>	
-			<input type="submit">
+			<div class="text-entry">
+				<label >Your name:</label><input type="text"/>
+			</div>	
+			<div class="text-entry">
+				<label >Message:</label><input type="textarea"/>
+			</div>
+			
+			<section class="checkbox-parent">
+			How did you learn about us?:
+				<div class="checkbox-child">
+					<label><input type="checkbox"/>Google</label>
+				</div>
+				<div class="checkbox-child">
+					<label><input type="checkbox"/>A Friend</label>
+				</div>
+				<div class="checkbox-child">
+					<label><input type="checkbox"/>Other</label>
+				</div>
+				<input type="submit">
+			</section>	
 		</form>
 
 	</content>

@@ -20,4 +20,4 @@ let form = document.querySelector('form#contact');
 let img = document.querySelector('img')
 
 form.addEventListener('submit', handleSubmit);
-img.addEventListener('mouseover', compliment);
+// img.addEventListener('mouseover', compliment);

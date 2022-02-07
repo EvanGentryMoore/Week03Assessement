@@ -1,5 +1,7 @@
-let button = document.querySelector("button")
+let button = document.querySelectorAll("button");
 
-const buttonClick = (event) => {
-    
+for(let i = 0; i < button.length; i++){
+    button[i].addEventListener('click', (event) => {
+    alert(`My favorite ${event.target.id} is ${event.target.value}.`);
+    })
 }

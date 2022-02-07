@@ -28,18 +28,61 @@ a:visited {
 	color: crimson;
 }
 
-
-/* input {
-	display: block;
-} */
-
-.checkbox-form label, .checkbox-form input {
-	display: inline-block;
-	margin-bottom: 0;
-	vertical-align: middle;
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 270px;
+	margin-bottom: px;
 }
 
+form .text-entry {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+
+.checkbox-child {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 6px;
+	margin: 2px;
+}
+
+input[type="checkbox"] {
+	height: 20px;
+	width: 20px;
+}
 
 img {
 	max-width: 300px;
+}
+
+.checkbox-form {
+	display: flex;
+	flex-direction: column
+}
+
+.aboutMeCheckbox {
+	display: flex;
+	align-items: center;
+	margin-bottom: 3px;
+
+}
+
+h4 {
+	margin-bottom: 5px;
+}
+
+p {
+	margin-top: 2px;
+}
+
+.part5 {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background-color: rgb(255, 246, 126);
+	border: purple solid 5px;
 }
